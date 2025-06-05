@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="1100"
+   version="1.1"
+   id="svg88"
+   sodipodi:docname="data_processing_workflow.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview88"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0452324"
+     inkscape:cx="352.07482"
+     inkscape:cy="291.32278"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg88" />
+  <!-- Background -->
+  <defs
+     id="defs19">
+    <linearGradient
+       id="bgGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#f8f9fa;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#e9ecef;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <!-- Python process gradient -->
+    <linearGradient
+       id="pythonGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#3776ab;stop-opacity:1"
+         id="stop3" />
+      <stop
+         offset="100%"
+         style="stop-color:#2c5aa0;stop-opacity:1"
+         id="stop4" />
+    </linearGradient>
+    <!-- Firebase gradient -->
+    <linearGradient
+       id="firebaseGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#FFA000;stop-opacity:1"
+         id="stop5" />
+      <stop
+         offset="100%"
+         style="stop-color:#FF8F00;stop-opacity:1"
+         id="stop6" />
+    </linearGradient>
+    <!-- Decrypt gradient -->
+    <linearGradient
+       id="decryptGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#9C27B0;stop-opacity:1"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#7B1FA2;stop-opacity:1"
+         id="stop8" />
+    </linearGradient>
+    <!-- Data processing gradient -->
+    <linearGradient
+       id="dataGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#4CAF50;stop-opacity:1"
+         id="stop9" />
+      <stop
+         offset="100%"
+         style="stop-color:#388E3C;stop-opacity:1"
+         id="stop10" />
+    </linearGradient>
+    <!-- Report gradient -->
+    <linearGradient
+       id="reportGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#2196F3;stop-opacity:1"
+         id="stop11" />
+      <stop
+         offset="100%"
+         style="stop-color:#1976D2;stop-opacity:1"
+         id="stop12" />
+    </linearGradient>
+    <!-- Error handling gradient -->
+    <linearGradient
+       id="errorGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#F44336;stop-opacity:1"
+         id="stop13" />
+      <stop
+         offset="100%"
+         style="stop-color:#D32F2F;stop-opacity:1"
+         id="stop14" />
+    </linearGradient>
+    <!-- Terminal gradient -->
+    <linearGradient
+       id="terminalGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#607D8B;stop-opacity:1"
+         id="stop15" />
+      <stop
+         offset="100%"
+         style="stop-color:#455A64;stop-opacity:1"
+         id="stop16" />
+    </linearGradient>
+    <!-- Decision gradient -->
+    <linearGradient
+       id="decisionGradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#FF5722;stop-opacity:1"
+         id="stop17" />
+      <stop
+         offset="100%"
+         style="stop-color:#E64A19;stop-opacity:1"
+         id="stop18" />
+    </linearGradient>
+    <!-- Arrow marker -->
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#263238"
+         id="polygon18" />
+    </marker>
+    <!-- Error arrow marker -->
+    <marker
+       id="errorArrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#D32F2F"
+         id="polygon19" />
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="900"
+     height="1100"
+     fill="url(#bgGradient)"
+     id="rect19" />
+  <!-- Title -->
+  <text
+     x="450"
+     y="30"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="24"
+     font-weight="bold"
+     fill="#263238"
+     id="text19">
+    Data Processing Workflow - Python Backend
+  </text>
+  <text
+     x="450"
+     y="50"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#546E7A"
+     id="text20">
+    process_attendance_decryption.py Implementation
+  </text>
+  <!-- START -->
+  <ellipse
+     cx="450"
+     cy="90"
+     rx="70"
+     ry="25"
+     fill="url(#terminalGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="ellipse20" />
+  <text
+     x="450"
+     y="97"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text21">START</text>
+  <!-- Arrow from START -->
+  <line
+     x1="450"
+     y1="115"
+     x2="450"
+     y2="140"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line21" />
+  <!-- Step 1: Python Environment Setup -->
+  <rect
+     x="350"
+     y="145"
+     width="200"
+     height="50"
+     rx="10"
+     fill="url(#pythonGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect21" />
+  <text
+     x="450"
+     y="165"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text22">Python Environment Setup</text>
+  <text
+     x="450"
+     y="180"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text23">Visual Studio Code + Libraries</text>
+  <!-- Libraries list -->
+  <rect
+     x="570"
+     y="130"
+     width="280"
+     height="80"
+     rx="8"
+     fill="white"
+     stroke="#B0BEC5"
+     stroke-width="1"
+     opacity="0.95"
+     id="rect23" />
+  <text
+     x="580"
+     y="148"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="#263238"
+     id="text24">Required Libraries:</text>
+  <text
+     x="580"
+     y="163"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#546E7A"
+     id="text25">• Pyrebase4 (Firebase connection)</text>
+  <text
+     x="580"
+     y="177"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#546E7A"
+     id="text26">• Pycryptodome (AES decryption)</text>
+  <text
+     x="580"
+     y="191"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#546E7A"
+     id="text27">• Pandas (data structuring)</text>
+  <text
+     x="580"
+     y="205"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#546E7A"
+     id="text28">• Openpyxl (Excel generation)</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="195"
+     x2="450"
+     y2="220"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line28" />
+  <!-- Step 2: Firebase Configuration -->
+  <rect
+     x="350"
+     y="225"
+     width="200"
+     height="50"
+     rx="10"
+     fill="url(#firebaseGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect28" />
+  <text
+     x="450"
+     y="245"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text29">Configure Firebase</text>
+  <text
+     x="450"
+     y="260"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text30">Pyrebase4 + Redacted Credentials</text>
+  <!-- Security note -->
+  <rect
+     x="80"
+     y="230"
+     width="220"
+     height="40"
+     rx="5"
+     fill="#E8F5E8"
+     stroke="#4CAF50"
+     stroke-width="1"
+     id="rect30" />
+  <text
+     x="90"
+     y="245"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#2E7D32"
+     id="text31">🔒 Security Implementation:</text>
+  <text
+     x="90"
+     y="260"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#388E3C"
+     id="text32">Credentials redacted for protection</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="275"
+     x2="450"
+     y2="300"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line32" />
+  <!-- Step 3: Data Fetching -->
+  <rect
+     x="350"
+     y="305"
+     width="200"
+     height="50"
+     rx="10"
+     fill="url(#firebaseGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect32" />
+  <text
+     x="450"
+     y="325"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text33">Fetch Encrypted Records</text>
+  <text
+     x="450"
+     y="340"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text34">Firebase REST API</text>
+  <!-- Path detail -->
+  <rect
+     x="570"
+     y="315"
+     width="250"
+     height="30"
+     rx="5"
+     fill="#FFF3E0"
+     stroke="#FF9800"
+     stroke-width="1"
+     id="rect34" />
+  <text
+     x="580"
+     y="327"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#E65100"
+     id="text35">Path:</text>
+  <text
+     x="580"
+     y="340"
+     font-family="monospace"
+     font-size="9"
+     fill="#F57C00"
+     id="text36">/attendance_records/class/date</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="355"
+     x2="450"
+     y2="380"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line36" />
+  <!-- Step 4: Data Structure Check -->
+  <polygon
+     points="450,385 520,415 450,445 380,415"
+     fill="url(#decisionGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="polygon36" />
+  <text
+     x="450"
+     y="410"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text37">Data Structure</text>
+  <text
+     x="450"
+     y="425"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text38">Valid?</text>
+  <!-- Error path -->
+  <line
+     x1="380"
+     y1="415"
+     x2="280"
+     y2="415"
+     stroke="#D32F2F"
+     stroke-width="2"
+     marker-end="url(#errorArrow)"
+     id="line38" />
+  <text
+     x="330"
+     y="410"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#D32F2F"
+     id="text39">No</text>
+  <rect
+     x="180"
+     y="395"
+     width="120"
+     height="40"
+     rx="5"
+     fill="url(#errorGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect39" />
+  <text
+     x="240"
+     y="412"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     font-weight="bold"
+     fill="white"
+     id="text40">Skip Record</text>
+  <text
+     x="240"
+     y="425"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="white"
+     id="text41">Log Error</text>
+  <!-- Skip loop back -->
+  <line
+     x1="180"
+     y1="415"
+     x2="120"
+     y2="415"
+     stroke="#D32F2F"
+     stroke-width="2"
+     id="line41" />
+  <line
+     x1="120"
+     y1="415"
+     x2="120"
+     y2="330"
+     stroke="#D32F2F"
+     stroke-width="2"
+     id="line42" />
+  <line
+     x1="120"
+     y1="330"
+     x2="350"
+     y2="330"
+     stroke="#D32F2F"
+     stroke-width="2"
+     marker-end="url(#errorArrow)"
+     id="line43" />
+  <!-- Continue path -->
+  <line
+     x1="450"
+     y1="445"
+     x2="450"
+     y2="470"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line44" />
+  <text
+     x="470"
+     y="460"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="#263238"
+     id="text44">Yes</text>
+  <!-- Step 5: Base64 Decoding -->
+  <rect
+     x="350"
+     y="475"
+     width="200"
+     height="50"
+     rx="10"
+     fill="url(#decryptGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect44" />
+  <text
+     x="450"
+     y="495"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text45">Base64 Decoding</text>
+  <text
+     x="450"
+     y="510"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text46">Pycryptodome Library</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="525"
+     x2="450"
+     y2="550"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line46" />
+  <!-- Step 6: AES Decryption -->
+  <rect
+     x="350"
+     y="555"
+     width="200"
+     height="50"
+     rx="10"
+     fill="url(#decryptGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect46" />
+  <text
+     x="450"
+     y="575"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text47">AES-128 Decryption</text>
+  <text
+     x="450"
+     y="590"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text48">CBC Mode + PKCS#7 Unpadding</text>
+  <!-- Decryption details -->
+  <rect
+     x="80"
+     y="540"
+     width="220"
+     height="80"
+     rx="5"
+     fill="#F3E5F5"
+     stroke="#9C27B0"
+     stroke-width="1"
+     id="rect48" />
+  <text
+     x="90"
+     y="555"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#6A1B9A"
+     id="text49">🔓 Decryption Process:</text>
+  <text
+     x="90"
+     y="570"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#7B1FA2"
+     id="text50">1. Use same 16-byte key  IV</text>
+  <text
+     x="90"
+     y="583"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#7B1FA2"
+     id="text51">2. AES-128 CBC decryption</text>
+  <text
+     x="90"
+     y="596"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#7B1FA2"
+     id="text52">3. Remove PKCS#7 padding</text>
+  <text
+     x="90"
+     y="609"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#7B1FA2"
+     id="text53">4. Parse JSON structure</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="605"
+     x2="450"
+     y2="630"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line53" />
+  <!-- Step 7: Data Structuring -->
+  <rect
+     x="350"
+     y="635"
+     width="200"
+     height="50"
+     rx="10"
+     fill="url(#dataGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect53" />
+  <text
+     x="450"
+     y="655"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text54">Structure with Pandas</text>
+  <text
+     x="450"
+     y="670"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text55">Create DataFrames</text>
+  <!-- DataFrame structure -->
+  <rect
+     x="570"
+     y="620"
+     width="280"
+     height="100"
+     rx="5"
+     fill="#E8F5E8"
+     stroke="#4CAF50"
+     stroke-width="1"
+     id="rect55" />
+  <text
+     x="580"
+     y="635"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#2E7D32"
+     id="text56">DataFrame Columns:</text>
+  <text
+     x="580"
+     y="650"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#388E3C"
+     id="text57">• id (fingerprint ID)</text>
+  <text
+     x="580"
+     y="663"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#388E3C"
+     id="text58">• matric_number (student ID)</text>
+  <text
+     x="580"
+     y="676"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#388E3C"
+     id="text59">• course (class name)</text>
+  <text
+     x="580"
+     y="689"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#388E3C"
+     id="text60">• date, present, present_time</text>
+  <text
+     x="580"
+     y="702"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#388E3C"
+     id="text61">• absent_time</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="685"
+     x2="450"
+     y2="710"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line61" />
+  <!-- Step 8: CSV Generation -->
+  <rect
+     x="275"
+     y="715"
+     width="150"
+     height="50"
+     rx="10"
+     fill="url(#reportGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect61" />
+  <text
+     x="350"
+     y="735"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text62">Generate CSV</text>
+  <text
+     x="350"
+     y="750"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text63">Per Class/Date</text>
+  <!-- Step 9: HTML Report -->
+  <rect
+     x="475"
+     y="715"
+     width="150"
+     height="50"
+     rx="10"
+     fill="url(#reportGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect63" />
+  <text
+     x="550"
+     y="735"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text64">HTML Report</text>
+  <text
+     x="550"
+     y="750"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text65">CSS Styling</text>
+  <!-- Arrows to reports -->
+  <line
+     x1="439.82922"
+     y1="687.9953"
+     x2="389.82922"
+     y2="712.9953"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line65" />
+  <line
+     x1="460.17078"
+     y1="688.47369"
+     x2="510.17078"
+     y2="713.47369"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line66" />
+  <!-- Arrow from reports -->
+  <line
+     x1="350"
+     y1="765"
+     x2="350"
+     y2="790"
+     stroke="#263238"
+     stroke-width="2"
+     id="line67" />
+  <line
+     x1="550"
+     y1="765"
+     x2="550"
+     y2="790"
+     stroke="#263238"
+     stroke-width="2"
+     id="line68" />
+  <line
+     x1="350"
+     y1="790"
+     x2="550"
+     y2="790"
+     stroke="#263238"
+     stroke-width="2"
+     id="line69" />
+  <line
+     x1="450"
+     y1="790"
+     x2="450"
+     y2="815"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line70" />
+  <!-- Step 10: Excel Report -->
+  <rect
+     x="375"
+     y="820"
+     width="150"
+     height="50"
+     rx="10"
+     fill="url(#reportGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect70" />
+  <text
+     x="450"
+     y="840"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="white"
+     id="text70">Excel Report</text>
+  <text
+     x="450"
+     y="855"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     fill="white"
+     id="text71">Openpyxl Formatting</text>
+  <!-- File paths -->
+  <rect
+     x="80"
+     y="785"
+     width="220"
+     height="110"
+     rx="5"
+     fill="#E3F2FD"
+     stroke="#2196F3"
+     stroke-width="1"
+     id="rect71" />
+  <text
+     x="90"
+     y="800"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#1565C0"
+     id="text72">📁 Output Files:</text>
+  <text
+     x="90"
+     y="815"
+     font-family="monospace"
+     font-size="9"
+     fill="#1976D2"
+     id="text73">attendance/</text>
+  <text
+     x="90"
+     y="828"
+     font-family="monospace"
+     font-size="9"
+     fill="#1976D2"
+     id="text74">├── class/date.csv</text>
+  <text
+     x="90"
+     y="841"
+     font-family="monospace"
+     font-size="9"
+     fill="#1976D2"
+     id="text75">├── attendance_report.html</text>
+  <text
+     x="90"
+     y="854"
+     font-family="monospace"
+     font-size="9"
+     fill="#1976D2"
+     id="text76">└── attendance_summary.xlsx</text>
+  <text
+     x="90"
+     y="875"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#1976D2"
+     id="text77">+ Console table output</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="870"
+     x2="450"
+     y2="895"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line77" />
+  <!-- Step 11: Error Handling Implementation -->
+  <rect
+     x="350"
+     y="900"
+     width="200"
+     height="50"
+     rx="10"
+     fill="url(#errorGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="rect77" />
+  <text
+     x="450"
+     y="920"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="bold"
+     fill="white"
+     id="text78">Error Handling</text>
+  <text
+     x="450"
+     y="935"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="white"
+     id="text79">Log  Continue Processing</text>
+  <!-- Error handling details -->
+  <rect
+     x="570"
+     y="880"
+     width="280"
+     height="90"
+     rx="5"
+     fill="#FFEBEE"
+     stroke="#F44336"
+     stroke-width="1"
+     id="rect79" />
+  <text
+     x="580"
+     y="895"
+     font-family="Arial, sans-serif"
+     font-size="10"
+     font-weight="bold"
+     fill="#C62828"
+     id="text80">⚠️ Error Handling:</text>
+  <text
+     x="580"
+     y="910"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#D32F2F"
+     id="text81">• Decryption failures</text>
+  <text
+     x="580"
+     y="923"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#D32F2F"
+     id="text82">• Invalid Base64 encoding</text>
+  <text
+     x="580"
+     y="936"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#D32F2F"
+     id="text83">• Malformed JSON data</text>
+  <text
+     x="580"
+     y="949"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#D32F2F"
+     id="text84">• Missing Firebase records</text>
+  <text
+     x="580"
+     y="962"
+     font-family="Arial, sans-serif"
+     font-size="9"
+     fill="#D32F2F"
+     id="text85">• PKCS#7 padding issues</text>
+  <!-- Arrow -->
+  <line
+     x1="450"
+     y1="950"
+     x2="450"
+     y2="975"
+     stroke="#263238"
+     stroke-width="2"
+     marker-end="url(#arrowhead)"
+     id="line85" />
+  <!-- END -->
+  <ellipse
+     cx="450"
+     cy="1005"
+     rx="80"
+     ry="25"
+     fill="url(#terminalGradient)"
+     stroke="#37474F"
+     stroke-width="2"
+     id="ellipse85" />
+  <text
+     x="450"
+     y="1012"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     font-weight="bold"
+     fill="white"
+     id="text86">COMPLETE</text>
+  <!-- Summary box -->
+  <rect
+     x="100"
+     y="1040"
+     width="700"
+     height="50"
+     rx="10"
+     fill="white"
+     stroke="#607D8B"
+     stroke-width="2"
+     opacity="0.95"
+     id="rect86" />
+  <text
+     x="450"
+     y="1058"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="bold"
+     fill="#263238"
+     id="text87">
+    ✅ Process Complete: Encrypted attendance data successfully decrypted and formatted
+  </text>
+  <text
+     x="450"
+     y="1075"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="11"
+     fill="#546E7A"
+     id="text88">
+    Multiple report formats generated with comprehensive error handling
+  </text>
+</svg>
